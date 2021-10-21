@@ -48,3 +48,67 @@ print(33*30)#990
 print("\n" + str(currentframe().f_lineno) +
       ": selle reaga  arv/ arv")
 print(666/999)#0,6666666666
+print(1**3)#1
+print(2**3)#8
+print("\n" + str(currentframe().f_lineno) +
+      ": selle reaga  arv astmes arv")
+print(2**3)
+# arvu astendamine
+print(2**3**2)#512
+# ilma sulgusid kasutamatta arvutab teisest otsast
+print((2**3)**2)#64
+print("\n" + str(currentframe().f_lineno) +
+      ": selle reaga  jaagi arvutamine")
+print(15 % 3)# 0
+print(24 % 4)
+# vastus tais arv , seega vatus on , et jaak on 0
+print(24 % 7)# 3
+print(23 % 5)# 3
+# 5 mahub 23 sisse 4 korda ja 5korda 4 =20ja 20st 23ni jaab ule 3 , v:3
+print("\n" + str(currentframe().f_lineno) +
+      ": selle reaga  umardan arvu komakoha tapsusega")
+print(2)#2
+print(2.1)#2
+print(146.5)
+# ei olnud piisavalt tahelepanelik ja ei kasutanud round kasku
+print(round (146.5))#146
+print(round(146.55))#147
+print(round(146.50001))#147
+print(round(146.50 ))#146
+print(round(146.50,1))#146,5
+print(round(146.50,0))#146,0
+print(round(146.50,-1))#150,0
+print(round(146.50,-2))#100
+print(round(146.50,-3))#0,0
+print(round(146.6))#147
+print(round(147.5))#148
+#from math import ceil print(ceil(100.4))
+# nii ei tohi , koik kasud eraldi ridadel 
+# 85 rida vigane , trellid ette 
+from math import ceil
+print(ceil(100.4))#101
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
