@@ -35,80 +35,61 @@ print("\n" + str(currentframe().f_lineno) +
 # naitab - tekitab rea vahetuse ,+konventeerib arvu soneks ,(valjastab
 # viite sellele failile kus oleme ,.f lineno naitab rea tunnust
 print(penta * 2)
-print(666/999)
-print(6/3)
+print(666 / 999)
+print(6 / 3)
 # jagamine , vastuseks murd arv
-print(6//3)#2
-print(666//999)#0
-print(999//666)#1
-print(666//333)#2
-print(999//33)#30
-print(33*30)#990
-#tegelesin jagamisega , taisarvu jagamisega ja kontrollisin korrutuse labi .
+print(6 // 3)  # 2
+print(666 // 999)  # 0
+print(999 // 666)  # 1
+print(666 // 333)  # 2
+print(999 // 33)  # 30
+print(33 * 30)  # 990
+# tegelesin jagamisega , taisarvu jagamisega ja kontrollisin korrutuse labi .
 print("\n" + str(currentframe().f_lineno) +
       ": selle reaga  arv/ arv")
-print(666/999)#0,6666666666
-print(1**3)#1
-print(2**3)#8
+print(666 / 999)  # 0,6666666666
+print(1**3)  # 1
+print(2**3)  # 8
 print("\n" + str(currentframe().f_lineno) +
       ": selle reaga  arv astmes arv")
 print(2**3)
 # arvu astendamine
-print(2**3**2)#512
+print(2**3**2)  # 512
 # ilma sulgusid kasutamatta arvutab teisest otsast
-print((2**3)**2)#64
+print((2**3)**2)  # 64
 print("\n" + str(currentframe().f_lineno) +
       ": selle reaga  jaagi arvutamine")
-print(15 % 3)# 0
+print(15 % 3)  # 0
 print(24 % 4)
 # vastus tais arv , seega vatus on , et jaak on 0
-print(24 % 7)# 3
-print(23 % 5)# 3
+print(24 % 7)  # 3
+print(23 % 5)  # 3
 # 5 mahub 23 sisse 4 korda ja 5korda 4 =20ja 20st 23ni jaab ule 3 , v:3
 print("\n" + str(currentframe().f_lineno) +
       ": selle reaga  umardan arvu komakoha tapsusega")
-print(2)#2
-print(2.1)#2
+print(2)  # 2
+print(2.1)  # 2
 print(146.5)
 # ei olnud piisavalt tahelepanelik ja ei kasutanud round kasku
-print(round (146.5))#146
-print(round(146.55))#147
-print(round(146.50001))#147
-print(round(146.50 ))#146
-print(round(146.50,1))#146,5
-print(round(146.50,0))#146,0
-print(round(146.50,-1))#150,0
-print(round(146.50,-2))#100
-print(round(146.50,-3))#0,0
-print(round(146.6))#147
-print(round(147.5))#148
-#from math import ceil print(ceil(100.4))
-# nii ei tohi , koik kasud eraldi ridadel 
-# 85 rida vigane , trellid ette 
+print(round(146.5))  # 146
+print(round(146.55))  # 147
+print(round(146.50001))  # 147
+print(round(146.50))  # 146
+print(round(146.50, 1))  # 146,5
+print(round(146.50, 0))  # 146,0
+print(round(146.50, -1))  # 150,0
+print(round(146.50, -2))  # 100
+print(round(146.50, -3))  # 0,0
+print(round(146.6))  # 147
+print(round(147.5))  # 148
+# from math import ceil print(ceil(100.4))
+# nii ei tohi , koik kasud eraldi ridadel
+# 85 rida vigane , trellid ette
 from math import ceil
-print(ceil(100.4))#101
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(ceil(100.4))  # 101
+print("\n" + str(currentframe().f_lineno) +
+      ": selle reaga  umardan arvu alla")
+print(2.1)  # 2,1 see on ilma kasuta- floor -mida kulvad ,seda loikad
+from math import floor
+print(floor(2.1))  # 2
+print(floor(27.5,))
