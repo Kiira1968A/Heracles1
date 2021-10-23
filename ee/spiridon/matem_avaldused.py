@@ -93,3 +93,33 @@ print(2.1)  # 2,1 see on ilma kasuta- floor -mida kulvad ,seda loikad
 from math import floor
 print(floor(2.1))  # 2
 print(floor(27.5,))
+print("\n" + str(currentframe().f_lineno) +
+      ": selle reaga  ruutjuur")
+from math import sqrt
+print(sqrt(4))#2
+print(sqrt(6))#2.449489742783178
+import sys
+print (sys.float_info)
+from math import pow 
+print(pow(4,4))#256
+print(pow(2,2))#4
+print(pow(6,2))#36
+print(2**2)#4
+print(2**0,5)#1 5
+print(2**0.5)#1.4142135623730951
+print("\n" + str(currentframe().f_lineno) +
+      ": selle reaga logaritmime ")
+from math import log 
+print(log(4,2))#2
+print(log(6,2))#2.584962500721156
+from math import log10 
+print(log10(10))#1
+print(log10(25))#1.3979400086720377
+from math import exp
+print(exp(1))#2.718281828459045
+print(exp(3))#20.085536923187668
+
+
+
+
+                  
