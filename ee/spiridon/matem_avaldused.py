@@ -118,8 +118,43 @@ print(log10(25))#1.3979400086720377
 from math import exp
 print(exp(1))#2.718281828459045
 print(exp(3))#20.085536923187668
+from math import  sin 
+print (sin(2)) 
+print (sin(3))
+from math import cos 
+print (cos(2))# -0.4161468365471424 
+print (cos(6))#0.960170286650366
+from math import tan 
+print (tan(2))#-2.185039863261519
+from math import asin 
+from math import acos 
+from math import atan 
+print (asin(0.1411200080598672))
+print (asin (1))# 1.5707963267948966
+print (acos (1))
+print (atan (1))
+print(45/57)
+from math import degrees 
+from math import radians 
+from math import pi
+print (degrees (1))
+print (radians (1))
+print (pi)
+from math import tau, e 
+print (2*pi)
+print (e)#2.718281828459045
+print (3*e)#8.154845485377136
+print (8.154845485377136/3)#2.718281828459045
+print (round (2.718281828459045,2))#2.72
+print (2**8)
+print (sqrt(256))#16
+print ("\n" + str(currentframe().f_lineno) +
+      ": selle reaga  loon loendi ja kusin selle suuruse")
+some_list = ["vaim", "isa", "ema", "lehm","laps"]
+print(some_list.__len__())# 5 kasutasin otse 
+print (len(some_list))# 5 kasutasin kaudselt 
 
 
 
 
-                  
+
