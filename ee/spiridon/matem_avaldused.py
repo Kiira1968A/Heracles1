@@ -152,8 +152,9 @@ print ("\n" + str(currentframe().f_lineno) +
       ": selle reaga  loon loendi ja kusin selle suuruse")
 some_list = ["vaim", "isa", "ema", "lehm","laps"]
 print(some_list.__len__())# 5 kasutasin otse 
-print (len(some_list))# 5 kasutasin kaudselt 
-
+print (len(some_list))# 5 kasutasin kaudsel
+print ("Hello world!")
+print ("Hello world!")
 
 
 
